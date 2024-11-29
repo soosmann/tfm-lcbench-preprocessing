@@ -26,7 +26,7 @@ The data was created using [Auto-PyTorch](https://github.com/automl/Auto-PyTorch
 * Learning rate: [1e-4, 1e-1], on log-scale
 * Momentum: [0.1, 0.99]
 * Weight decay: [1e-5, 1e-1]
-* Number of layers: [1, 5]
+* Number of layers: [1, 4]
 * Maximum number of units per layer: [64, 1024], on log-scale
 * Dropout: [0.0, 1.0]
 
