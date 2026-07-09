@@ -1,5 +1,3 @@
-pickle
-gzip
 setuptools
 numpy
 matplotlib

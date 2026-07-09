@@ -2,3 +2,7 @@ cached/
 __pycache__/
 *.DS_Store*
 *.ipynb_checkpoints*
+.vscode
+data/
+Dataset_Analysis_Learning_Curve_Bench_Hofmann_Marcel.pdf
+structure_validation.py

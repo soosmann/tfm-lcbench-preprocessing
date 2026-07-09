@@ -1,3 +1,13 @@
+# My Changes
+
+Rewrote the entire API for data retrieval to match `bench_full.json`, downloaded [here](https://figshare.com/projects/LCBench/74151) (filename: data_2k_3seed). Assumes that data lives locally at `data/bench_full.json`. Since `bench_full.json` is huge, it is split by its hierarchy: Curves are grouped by the trainings based on 35 datasets (use `split.py` to do the split, results in one json for one dataset containing its learning curves, makes opening the file easier). For the actual export of the learning curve use `export_lcbench_json.py`:
+
+```python
+python export_lcbench_json.py
+```
+
+I used Python 3.13 for this project.
+
 # LCBench
 
 A learning curve benchmark on openml data.
